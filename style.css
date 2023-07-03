@@ -1,3 +1,4 @@
+/* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable selector-pseudo-element-colon-notation */
 *,
 *::after,
@@ -26,4 +27,14 @@
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 12px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
