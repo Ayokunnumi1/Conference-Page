@@ -487,7 +487,7 @@ h5 {
 
 /* End of Home Page */
 
-/* start of About Me  */
+/* start of About Me Header Section */
 .abt-header-section {
   width: 100%;
   height: 100%;
@@ -517,6 +517,10 @@ h5 {
   opacity: 1;
 }
 
+.abt-desktop-desc {
+  display: none;
+}
+
 .abt-contact {
   width: 292px;
   height: 68px;
@@ -530,6 +534,7 @@ h5 {
   line-height: 25px;
   letter-spacing: 0;
   text-align: center;
+  padding-top: 12px;
 }
 
 .about-contact-email {
@@ -548,7 +553,7 @@ h5 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 114px;
+    padding-top: 50px;
   }
 
   .header-theme {
@@ -558,12 +563,134 @@ h5 {
   .abt-theme-content {
     text-align: center;
     height: 100px;
-    background-color: var(--color-white);
     width: 70%;
   }
 
   .abt-theme {
     width: 70%;
-    margin: 70px auto;
+    margin: 0 auto;
+  }
+
+  .abt-desktop-desc {
+    font-family: var(--font-lato);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: var(--color-white);
+    opacity: 1;
+    display: block;
+  }
+
+  .abt-mobile-desc {
+    display: none;
+  }
+}
+
+/* End of About Me Header Section */
+
+/* start of About me logo section */
+.abt-desktop-img {
+  width: 100%;
+}
+
+.logo-section-desc {
+  font-family: var(--font-lato);
+  color: var(--color-gray-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.abt-logo-text-container {
+  height: 160px;
+  width: 100%;
+}
+
+.abt-logo-text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.desktop-logo-desc {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-section-desc {
+    display: none;
+  }
+
+  .desktop-logo-desc {
+    display: block;
+    font-family: var(--font-lato);
+    color: var(--color-gray-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .desktop-abt-logo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .abt-logo-text {
+    width: 100%;
+  }
+}
+/* End of About me logo section */
+
+/* Start of past CC Global Summit */
+.abt-past-summit-desc {
+  font-family: var(--font-lato);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: var(--color-gray-text);
+  margin-top: 10px;
+  padding: 0 5px;
+}
+
+.abt-past-summit-content {
+  height: 100px;
+}
+
+.abt-past-summit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.abt-past-pic-edit {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .abt-past-summit-pic {
+    display: flex;
+    gap: 20px;
+  }
+
+  .partner-container {
+    display: none;
+  }
+
+  .footer {
+    background-color: hsl(0, 0%, 18%);
+    color: var(--color-white);
   }
 }
