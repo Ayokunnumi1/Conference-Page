@@ -576,7 +576,7 @@ h5 {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -0.06em;
+    letter-spacing: 0.5px;
     text-align: center;
     padding: 10px 5px;
     background-color: var(--color-white);
@@ -685,12 +685,7 @@ h5 {
     gap: 20px;
   }
 
-  .partner-container {
+  .abt-partner-container {
     display: none;
-  }
-
-  .footer {
-    background-color: hsl(0, 0%, 18%);
-    color: var(--color-white);
   }
 }
