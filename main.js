@@ -69,8 +69,7 @@ function generateSpeakerData() {
       <article class="featured-speaker-achieve">
       <h4>${speaker.name}</h4> <p class="featured-speaker-title">${speaker.profession}</p>
        <p class="featured-speaker-desc">${speaker.desc}</p></article>
-       </div>
-     </div> `;
+       </div> `;
   });
 }
 generateSpeakerData();
