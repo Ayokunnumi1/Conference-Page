@@ -53,7 +53,7 @@ a {
 
 .nav-links {
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 0;
   width: 100%;
   background-color: var(--color-white);
@@ -87,6 +87,10 @@ a {
   right: 10%;
   z-index: 1000;
   cursor: pointer;
+  display: none;
+}
+
+.mobile-header-logo {
   display: none;
 }
 

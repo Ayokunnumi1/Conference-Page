@@ -1,6 +1,5 @@
 ## Conference Page
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -8,6 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
+
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -20,11 +20,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📖 <a name="about-project">Content Creators Global Summit</a>
 
+This repository contains the source codes for a Conference Page built for Content creators. It showcases my skills and expertise in building responsive mobile and desktop versions with HTML, CSS and Javascript.
 
-This repository contains the source codes for a Conference Page built for Content creators. It showcases my skills and expertise in building responsive mobile and desktop versions with HTML, CSS and Javascript. 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -50,14 +49,13 @@ This repository contains the source codes for a Conference Page built for Conten
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]()
 
+- [Live Demo Link](https://ayokunnumi1.github.io/Conference-Page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -68,13 +66,13 @@ In order to run this project you need:
 2. Git installed on your system to clone the repository.
 3. A web browser to view and test the project.
 
-
 ### Setup
 
 1. Open your preferred terminal or command prompt.
 2. Navigate to the directory where you want to clone the project.
 
-  Run this command;
+Run this command;
+
 ```sh
   cd my-folder
   git@github.com:Ayokunnumi1/Conference-Page.git
@@ -82,10 +80,10 @@ In order to run this project you need:
 
 ### Install
 
-
 After cloning the repository, navigate into the project's directory. If there are any dependencies required for the project, you need to install them. Typically, this involves using a package manager like npm or yarn.
 
-  Run this command;
+Run this command;
+
 ```sh
   npm install
 ```
@@ -98,49 +96,45 @@ After cloning the repository, navigate into the project's directory. If there ar
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Author <a name="authors"></a>
+
 👤**Ayokunnumi Omololu**
 
 - GitHub: [@Ayokunnumi1][https://github.com/Ayokunnumi1]
 - Twitter: [@Ayokunnumi1] [https://twitter.com/AyokunnumiA]
 - LinkedIn: [Ayokunnumi] [https://www.linkedin.com/in/ayokunnumiomololu]
 
- 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- 
- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Project Showcase**
 - [ ] **Testimonials and recommendations**
 - [ ] **Interactive sections**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
 
- ## 🤝 Contributing <a name="contributing"></a>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Ayokunnumi1/Portfolio-setup-and-mobile-first/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project. show your support by following my github account.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I give thanks to the Microverse team for creating this project.
+
+I appreciate Cindy Shin for creating this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
