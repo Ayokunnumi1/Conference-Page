@@ -117,7 +117,8 @@ h1 {
   font-weight: 300;
   background-image: url(images/text-img.webp);
   background-size: cover;
-  /* background-clip: text; */
+  /* stylelint-disable-next-line csstree/validator */
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
