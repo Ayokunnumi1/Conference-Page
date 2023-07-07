@@ -7,12 +7,14 @@ const menuOpen = () => {
   navLinks.classList.add('show-link');
   closeIcon.style.display = 'block';
   hamburgerIcon.style.display = 'none';
+  document.body.style.overflow = 'hidden';
 };
 
 const menuClose = () => {
   navLinks.classList.remove('show-link');
   closeIcon.style.display = 'none';
   hamburgerIcon.style.display = 'block';
+  document.body.style.overflow = 'visible';
 };
 
 hamburgerIcon.addEventListener('click', menuOpen);
