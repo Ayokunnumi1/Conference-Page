@@ -13,8 +13,19 @@
 <body>
     <header>
         <div class="mobile-navbar">
-            <img src="images/hamburger.png" alt="hamburger icon">
-            <div><img src="images/header-logo.png" alt="Global Summit Logo"></div>
+            <nav class="mobile-navbar-container">
+                <span class="hamburger-icon"><img src="images/hamburger.png" alt="hamburger icon"></span>
+                <img src="images/Icon.png" class="close-icon-container" alt="close icon">
+                <ul class="nav-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#Partner">Partner</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">CC Campaign</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="images/header-logo.png" alt="Global Summit Logo"></a>
         </div>
         <ul class="navbar-banner">
             <li><a href="#"><img src="images/facebook-logo.png" class="mini-navbar-img" alt="facebook logo"></a></li>
@@ -73,31 +84,36 @@
             <div class="abt-logo-text-container">
                 <h4 class="abt-logo-text">Creative Content Global Summit 2023 Logo</h4>
                 <span class="line"></span>
-                <p class="logo-section-desc">The logo of CC Global Summit 2023 was decided through the logo competition from 5, June to 7, July.</p>
-                <p class="desktop-logo-desc">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
-                After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
-                After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</p>
+                <p class="logo-section-desc">The logo of CC Global Summit 2023 was decided through the logo competition
+                    from 5, June to 7, July.</p>
+                <p class="desktop-logo-desc">The logo of CC Global Summit 2015 was decided through the logo competition
+                    from 8, June to 7, July.
+                    After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal
+                    won the prize.
+                    After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as
+                    follows:</p>
             </div>
-                <img src="images/about_logo_desktop.png" class="abt-desktop-img" alt="gloal summit logo">
+            <img src="images/about_logo_desktop.png" class="abt-desktop-img" alt="gloal summit logo">
         </div>
     </section>
     <section class="abt-past-summit">
         <div class="abt-past-summit-content">
             <h4 class="abt-logo-text">See the past CC Global submits</h4>
             <span class="line"></span>
-            <p class="abt-past-summit-desc">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+            <p class="abt-past-summit-desc">Take a look at the past two CC Global Summits which took place in Buenos
+                Aires and in Warsaw</p>
         </div>
-            <div class="abt-past-summit-pic">
-                <div class="abt-past-pic-edit">
-                    <img src="images/about_2011 1.png" alt="global summit picture">
-                </div>
-                <div class="abt-past-pic-edit">
-                    <img src="images/about_2013 1.png"  alt="global summit picture">
-                </div>
+        <div class="abt-past-summit-pic">
+            <div class="abt-past-pic-edit">
+                <img src="images/about_2011 1.png" alt="global summit picture">
             </div>
+            <div class="abt-past-pic-edit">
+                <img src="images/about_2013 1.png" alt="global summit picture">
+            </div>
+        </div>
     </section>
 
-    <section class="partner-container abt-partner-container">
+    <section id="Partner" class="partner-container abt-partner-container">
         <h5>Partner</h5>
         <span class="line"></span>
         <div class="partner-img">
@@ -113,6 +129,7 @@
         <img src="images/header-logo.png" style="height: 60px;" alt="company logo">
         <p>2023 Creative Content Creators Nigeria. <br> Some Rights Reserved</p>
     </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
