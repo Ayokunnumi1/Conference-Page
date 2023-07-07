@@ -50,7 +50,7 @@ This repository contains the source codes for a Conference Page built for Conten
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://ayokunnumi1.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link]()
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
