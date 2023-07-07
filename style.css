@@ -431,6 +431,30 @@ h4 {
   padding: 20px 0;
 }
 
+.btn-more {
+  font-family: var(--font-lato);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.speaker-btn {
+  width: 100%;
+  background-color: var(--color-white);
+  cursor: pointer;
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.arrow-img {
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
 @media screen and (min-width: 768px) {
   .featured-speaker-content {
     display: flex;
@@ -450,6 +474,10 @@ h4 {
 
   .featured-speaker-img {
     padding-left: 10px;
+  }
+
+  .speaker-btn {
+    display: none;
   }
 }
 

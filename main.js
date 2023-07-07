@@ -61,9 +61,11 @@ const speakers = [
 ];
 
 const speakerContent = document.querySelector('.featured-speaker-content');
+let speakersToBeDisplayed = [];
 
 function generateSpeakerData() {
-  speakers.forEach((speaker) => {
+  speakerContent.innerHTML = '';
+  speakersToBeDisplayed.forEach((speaker) => {
     speakerContent.innerHTML += `<div class="featured-speaker-achievements">
     <img src="${speaker.img}" class="featured-speaker-img" alt="">
       <article class="featured-speaker-achieve">
@@ -72,4 +74,24 @@ function generateSpeakerData() {
        </div> `;
   });
 }
-generateSpeakerData();
+
+const seeMoreBtn = document.querySelector('.speaker-btn');
+const seeMoreBtnSpan = document.querySelector('.btn-more');
+let seeMore = false;
+const checkForWindowsWidth = () => window.innerWidth < 768;
+window.addEventListener('resize', () => {
+  speakersToBeDisplayed = checkForWindowsWidth() ? speakers.slice(0, 2) : speakers;
+  generateSpeakerData();
+});
+
+seeMoreBtn.addEventListener('click', () => {
+  seeMore = !seeMore;
+  speakersToBeDisplayed = seeMore ? speakers : speakers.slice(0, 2);
+  seeMoreBtnSpan.textContent = seeMore ? 'less' : 'more';
+  generateSpeakerData();
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  speakersToBeDisplayed = checkForWindowsWidth() ? speakers.slice(0, 2) : speakers;
+  generateSpeakerData();
+});
