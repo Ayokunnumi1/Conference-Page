@@ -359,7 +359,8 @@ h3 {
   .main-program-short {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 3px 5px 5px;
+    gap: 0;
   }
 
   .main-program-short:hover {
@@ -376,6 +377,9 @@ h3 {
     text-align: center;
     margin-top: 0;
     line-height: 9px;
+    line-height: 17px;
+    /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+    text-align: center;
   }
 
   .Join-CC-button {
@@ -579,7 +583,7 @@ h5 {
 .abt-desktop-h1 {
   font-family: var(--font-cocogoose);
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   background-image: url(images/text-img.webp);
   background-size: cover;
   /* stylelint-disable-next-line csstree/validator */
@@ -590,10 +594,9 @@ h5 {
 }
 
 .abt-theme-content {
-  width: 90%;
-  margin: 0 auto;
-  height: 200px;
+  height: 150px;
   padding-top: 20px;
+  text-align: center;
 }
 
 .abt-mobile-desc {
@@ -603,7 +606,8 @@ h5 {
   line-height: 25px;
   letter-spacing: -0.06em;
   text-align: center;
-  padding: 10px 5px;
+  margin: 10px 25px;
+  padding: 0 5px;
   background-color: var(--color-white);
   opacity: 1;
 }
@@ -612,17 +616,19 @@ h5 {
   display: none;
 }
 
+.cc-global-desktop-logo {
+  display: none;
+}
+
 .abt-contact {
-  width: 292px;
-  height: 68px;
-  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .abt-contact-desc {
   font-family: var(--font-lato);
   font-size: 12px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 20px;
   letter-spacing: 0;
   text-align: center;
   padding-top: 12px;
@@ -652,10 +658,12 @@ h5 {
     padding-top: 50px;
   }
 
-  .abt-theme {
-    font-size: 30px;
-    width: 70%;
+  .abt-theme-content {
+    width: 90%;
     margin: 0 auto;
+    height: 150px;
+    padding-top: 20px;
+    text-align: center;
   }
 
   .header-theme {
@@ -666,12 +674,6 @@ h5 {
     display: none;
   }
 
-  .abt-theme-content {
-    text-align: center;
-    height: 100px;
-    width: 70%;
-  }
-
   .abt-desktop-desc {
     font-family: var(--font-lato);
     font-size: 14px;
@@ -679,12 +681,12 @@ h5 {
     line-height: 25px;
     letter-spacing: 0.5px;
     text-align: center;
-    padding: 10px 5px;
+    padding: 20px 35px;
     background-color: var(--color-white);
     opacity: 1;
-    margin-top: 50px;
+    margin: 0 80px;
     display: block;
-    width: 100%;
+    color: hsl(0, 0%, 0%);
   }
 
   .abt-mobile-desc {
@@ -692,9 +694,17 @@ h5 {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .abt-desktop-desc {
+    margin: 0 180px;
+    padding: 15px 25px;
+  }
+}
+
 /* End of About Me Header Section */
 
 /* start of About me logo section */
+
 .abt-desktop-img {
   width: 100%;
 }
@@ -716,8 +726,16 @@ h5 {
 }
 
 .abt-logo-text {
-  width: 80%;
-  margin: 0 auto;
+  text-align: center;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.abt-logo-text-content {
+  padding: 0 30px;
+}
+
+.abt-logo-text-past {
   text-align: center;
   padding-top: 15px;
 }
@@ -726,9 +744,17 @@ h5 {
   display: none;
 }
 
+.abt-desktop-logo-text {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .logo-section-desc {
     display: none;
+  }
+
+  .abt-desktop-creative {
+    border: 3px solid red;
   }
 
   .desktop-logo-desc {
@@ -739,7 +765,26 @@ h5 {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: -0.03em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
     text-align: center;
+  }
+
+  .abt-desktop-img {
+    display: none;
+  }
+
+  .CC-global-desktop-img {
+    width: 45%;
+  }
+
+  .abt-desktop-logo-text {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
     margin-top: 20px;
   }
 
@@ -749,7 +794,33 @@ h5 {
   }
 
   .abt-logo-text {
-    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .cc-global-desktop-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abt-logo-text-content {
+    display: none;
+  }
+
+  .creative-line {
+    width: 45px;
+    background-color: var(--color-accent);
+    height: 3px;
+    display: flex;
+    margin: 3px auto;
+    position: relative;
+  }
+
+  .abt-logo-text-container {
+    display: none;
   }
 }
 
@@ -765,7 +836,7 @@ h5 {
   text-align: center;
   color: var(--color-gray-text);
   margin-top: 10px;
-  padding: 0 5px;
+  padding: 0 25px;
 }
 
 .abt-past-summit-content {
@@ -800,5 +871,9 @@ h5 {
 
   .abt-footer-logo {
     background-color: var(--color-white);
+  }
+
+  .abt-past-pic-img {
+    width: 250px;
   }
 }
